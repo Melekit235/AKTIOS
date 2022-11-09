@@ -1,0 +1,576 @@
+0:0:0
+Vendor ID: 32902, Intel Corporation
+Device ID: 29072, 440BX/ZX/DX - 82443BX/ZX/DX Host bridge
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: not used
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+0:1:0
+Vendor ID: 32902, Intel Corporation
+Device ID: 29073, 440BX/ZX/DX - 82443BX/ZX/DX AGP bridge
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 1 
+Максимальный номер подчиненной шины: 1 
+---------------------------------------------------
+0:7:0
+Vendor ID: 32902, Intel Corporation
+Device ID: 28944, 82371AB/EB/MB PIIX4 ISA
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: not used
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+0:7:1
+Vendor ID: 32902, Intel Corporation
+Device ID: 28945, 82371AB/EB/MB PIIX4 IDE
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: not used
+           TASK 1
+Class Code: 138
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: NOT FOUND
+---------------------------------------------------
+0:7:3
+Vendor ID: 32902, Intel Corporation
+Device ID: 28947, 82371AB/EB/MB PIIX4 ACPI
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: not used
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+0:7:7
+Vendor ID: 5549, VMware
+Device ID: 1856, Virtual Machine Communication Interface
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+0:f:0
+Vendor ID: 5549, VMware
+Device ID: 1029, SVGA II Adapter
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+0:10:0
+Vendor ID: 4096, LSI Logic / Symbios Logic
+Device ID: 0048, 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+0:11:0
+Vendor ID: 5549, VMware
+Device ID: 1936, PCI bridge
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 2 
+Максимальный номер подчиненной шины: 2 
+---------------------------------------------------
+0:15:0
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 3 
+Максимальный номер подчиненной шины: 3 
+---------------------------------------------------
+0:15:1
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 4 
+Максимальный номер подчиненной шины: 4 
+---------------------------------------------------
+0:15:2
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 5 
+Максимальный номер подчиненной шины: 5 
+---------------------------------------------------
+0:15:3
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 6 
+Максимальный номер подчиненной шины: 6 
+---------------------------------------------------
+0:15:4
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 7 
+Максимальный номер подчиненной шины: 7 
+---------------------------------------------------
+0:15:5
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 8 
+Максимальный номер подчиненной шины: 8 
+---------------------------------------------------
+0:15:6
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 9 
+Максимальный номер подчиненной шины: 9 
+---------------------------------------------------
+0:15:7
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 10 
+Максимальный номер подчиненной шины: 10 
+---------------------------------------------------
+0:16:0
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 11 
+Максимальный номер подчиненной шины: 11 
+---------------------------------------------------
+0:16:1
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 12 
+Максимальный номер подчиненной шины: 12 
+---------------------------------------------------
+0:16:2
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 13 
+Максимальный номер подчиненной шины: 13 
+---------------------------------------------------
+0:16:3
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 14 
+Максимальный номер подчиненной шины: 14 
+---------------------------------------------------
+0:16:4
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 15 
+Максимальный номер подчиненной шины: 15 
+---------------------------------------------------
+0:16:5
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 16 
+Максимальный номер подчиненной шины: 16 
+---------------------------------------------------
+0:16:6
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 17 
+Максимальный номер подчиненной шины: 17 
+---------------------------------------------------
+0:16:7
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 18 
+Максимальный номер подчиненной шины: 18 
+---------------------------------------------------
+0:17:0
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 19 
+Максимальный номер подчиненной шины: 19 
+---------------------------------------------------
+0:17:1
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 20 
+Максимальный номер подчиненной шины: 20 
+---------------------------------------------------
+0:17:2
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 21 
+Максимальный номер подчиненной шины: 21 
+---------------------------------------------------
+0:17:3
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 22 
+Максимальный номер подчиненной шины: 22 
+---------------------------------------------------
+0:17:4
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 23 
+Максимальный номер подчиненной шины: 23 
+---------------------------------------------------
+0:17:5
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 24 
+Максимальный номер подчиненной шины: 24 
+---------------------------------------------------
+0:17:6
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 25 
+Максимальный номер подчиненной шины: 25 
+---------------------------------------------------
+0:17:7
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 26 
+Максимальный номер подчиненной шины: 26 
+---------------------------------------------------
+0:18:0
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 27 
+Максимальный номер подчиненной шины: 27 
+---------------------------------------------------
+0:18:1
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 28 
+Максимальный номер подчиненной шины: 28 
+---------------------------------------------------
+0:18:2
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 29 
+Максимальный номер подчиненной шины: 29 
+---------------------------------------------------
+0:18:3
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 30 
+Максимальный номер подчиненной шины: 30 
+---------------------------------------------------
+0:18:4
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 31 
+Максимальный номер подчиненной шины: 31 
+---------------------------------------------------
+0:18:5
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 32 
+Максимальный номер подчиненной шины: 32 
+---------------------------------------------------
+0:18:6
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 33 
+Максимальный номер подчиненной шины: 33 
+---------------------------------------------------
+0:18:7
+Vendor ID: 5549, VMware
+Device ID: 1952, PCI Express Root Port
+
+Is bridge
+
+           TASK 8
+
+Номер первичной шины: 0 
+Номер вторичной шины (номер моста): 34 
+Максимальный номер подчиненной шины: 34 
+---------------------------------------------------
+2:0:0
+Vendor ID: 5549, VMware
+Device ID: 1908, USB1.1 UHCI Controller
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+2:1:0
+Vendor ID: 32902, Intel Corporation
+Device ID: 4111, 82545EM Gigabit Ethernet Controller (Copper)
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+2:2:0
+Vendor ID: 4724, Ensoniq
+Device ID: 4977, ES1371/ES1373 / Creative Labs CT2518
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 0
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: 
+---------------------------------------------------
+2:3:0
+Vendor ID: 5549, VMware
+Device ID: 1904, USB2 EHCI Controller
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 32
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: NOT FOUND
+---------------------------------------------------
+2:5:0
+Vendor ID: 5549, VMware
+Device ID: 2016, SATA AHCI controller
+
+Not a bridge
+
+           TASK 6
+Interrupt pin: INTA#
+           TASK 1
+Class Code: 1
+Base Class: Pre-2.0 PCI Specification Device
+Sub Class: Non-VGA
+Programming Interface: NOT FOUND
+---------------------------------------------------
