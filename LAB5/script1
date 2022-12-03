@@ -1,0 +1,8 @@
+#!/bin/bash
+dir=$1
+user=$2
+log=$3
+
+find $dir -type f -user $user -printf "%h%f %s\n" | tee -a $log | ls -all
+cat report
+exit
