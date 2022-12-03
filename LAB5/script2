@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<dirent.h>
+#include<limits.h>
+#include<libgen.h>
+
+void ProcessFolder( FILE *outfile, char *curPath){
+	DIR *dp;
+	dp = opendir(curPath);
+
+	struct dirent *d;
+	struct stat buf;
+
+	char *file = alloca(strlen(curPath) + NAME_MAX + 2);
+
+	long int sum = 0;
+	int count = 0;
+	int maxSize = -1;
+	char *maxFile = alloca(NAME_MAX);
+	maxFile[0] = 0;
+
+	while(d = readdir(dp)){
+		if(strcmp(".", d->d_name) && strcmp("..", d->d_name)){
+			strcpy(file, curPath);
+			strcat(file, "/");
+ 			strcat(file, d->d_name);
+			if (lstat(file,&buf) == -1) {
+				return;
+			}
+			if(!S_ISDIR(buf.st_mode)){
+				if(buf.st_size > maxSize){
+					maxSize = buf.st_size;
+					strcpy(maxFile, basename(file));
+				}
+				sum+=buf.st_size;
+				count++;
+			}
+			if(S_ISDIR(buf.st_mode)){
+				ProcessFolder(outfile, file);
+			}
+		}
+	}
+
+	printf("%s %d %ld %s\n", curPath, count, sum, maxFile);
+	fprintf(outfile,"%s %d %ld %s\n", curPath, count, sum, maxFile);
+
+	return;
+}
+
+int main( int argc , char *argv[] ){
+
+	FILE *file;
+	file = fopen(argv[2],"w");
+
+	ProcessFolder(file, realpath(argv[1], NULL));								
+
+	fclose(file);
+
+	return 0;
+}
